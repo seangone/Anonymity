@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anonymity</title>
+    <script src="popper-1.12.9/popper.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-4.1.3/css/bootstrap.css" >
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="jquery-3.3.1/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<div class="cover-container h-100 w-100 m-auto flex-column">
+    <header class="mb-auto">
+        <section class="header">
+            <nav class="navbar navbar-expand-lg">
+                <ul class="navbar-nav">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="logo-head-color.png" height="80" width="80"/>
+                    </a>
+                </ul>
+                <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar1">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 justify-content-end">
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link anonymity-link active nav-cuzhuang" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anonymity-link nav-cuzhuang" href="#">Therapy</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle anonymity-link nav-cuzhuang" href="#" id="navbarResources" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Resources
+                            </a>
+                            <div class="dropdown-menu anonymity-menu" aria-labelledby="navbarResources">
+                                <a class="dropdown-item anonymity-link2" href="#">Free Legal Clinics-Lawyers</a>
+                                <a class="dropdown-item anonymity-link2" href="#">Healthcare</a>
+                                <!--<div class="dropdown-divider"></div>-->
+                                <!--<a class="dropdown-item" href="#">Something else here</a>-->
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anonymity-link nav-cuzhuang" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anonymity-link nav-cuzhuang" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <main class="inner cover m-0">
+        <div class="col-sm-12 text-center p-0 mx-0">
+            <div class="search-cover w-100 p-4 my-lg-4 mx-auto">
+                <div class="main-search m-0">
+                    <form action="rolldown.html">
+                        <div class="form-row m-0">
+                            <div class="form-group col-md-8 m-0">
+                                <input type="text" class="form-control" placeholder="Type in the key words to find the services that you are interested in">
+                            </div>
+                            <div class="form-group col-md-2 m-0">
+                                <input type="text" class="form-control" placeholder="Zipcode">
+                            </div>
+                            <div class="form-group col-md-2 m-0">
+                                <button type="submit" class="btn btn-dark w-100">SEARCH</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="main-search-results">
+                <p class="lead anonymity-large">Search Results: "Sexual assault"</p>
+                <!--dropdown-->
+                <div class="dropdown text-left p-4 my-lg-4 mx-auto">
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        relevance
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">relevance</a>
+                        <a class="dropdown-item" href="#">Highest Rated</a>
+                        <a class="dropdown-item" href="#">Most Reviewed</a>
+                    </div>
+                </div>
+                <div class="main-search-resultlist row">
+                    <!--left column-->
+                    <div class="left search-cover col col-8">
+                        <!--agency 1-->
+                        <div class="left_block search-item-cover my-5 mx-3">
+                            <div class="info row p-3 m-3">
+                                <div class="info_left col col-3">
+                                    <img src="icon/pic.png" height="50px"/>
+                                    <div class="tele">
+                                        <p>
+                                            <img src="icon/tele.png" />
+                                            1-800-656-4673
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="info_right col col-9 text-left">
+                                    <div class="info_right_top">
+                                        <div class="title">
+                                            <h3>Agency 1</h3>
+                                            <p class="type">Hotline Services</p>
+                                        </div>
+                                        <div class="heart text-right">
+                                            <img src="icon/heart_black.png" />
+                                        </div>
+                                    </div>
+                                    <p class="describ">some information some information some information some information there is some information some information some information.</p>
+                                    <div class="detail">
+                                        <p>
+                                            <img src="icon/global.png" />
+                                            no file
+                                        </p>
+                                    </div>
+                                    <div class="detail">
+                                        <p>
+                                            <img src="icon/time.png" />
+                                            Available 24 hours everyday
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tags row">
+                                <div class="tag col col-3 search-cover m-3">
+                                    <p>Sexual Assault</p>
+                                </div>
+                                <div class="tag col col-3 search-cover m-3">
+                                    <p>Domestic Voilence</p>
+                                </div>
+                                <div class="tag col col-3 search-cover m-3">
+                                    <p>Free Consultation</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--agency 1-->
+                        <div class="left_block search-item-cover my-5 mx-3">
+                            <div class="info row p-3 m-3">
+                                <div class="info_left col col-3">
+                                    <img src="icon/pic.png" height="50px"/>
+                                    <div class="tele">
+                                        <p>
+                                            <img src="icon/tele.png" />
+                                            1-800-656-4673
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="info_right col col-9 text-left">
+                                    <div class="info_right_top">
+                                        <div class="title">
+                                            <h3>Agency 1</h3>
+                                            <p class="type">Hotline Services</p>
+                                        </div>
+                                        <div class="heart text-right">
+                                            <img src="icon/heart_black.png" />
+                                        </div>
+                                    </div>
+                                    <p class="describ">some information some information some information some information there is some information some information some information.</p>
+                                    <div class="detail">
+                                        <p>
+                                            <img src="icon/global.png" />
+                                            no file
+                                        </p>
+                                    </div>
+                                    <div class="detail">
+                                        <p>
+                                            <img src="icon/time.png" />
+                                            Available 24 hours everyday
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tags row">
+                                <div class="tag col col-3 search-cover m-3">
+                                    <p>Sexual Assault</p>
+                                </div>
+                                <div class="tag col col-3 search-cover m-3">
+                                    <p>Domestic Voilence</p>
+                                </div>
+                                <div class="tag col col-3 search-cover m-3">
+                                    <p>Free Consultation</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--agency 1-->
+                        <div class="left_block search-item-cover my-5 mx-3">
+                            <div class="info row p-3 m-3">
+                                <div class="info_left col col-3">
+                                    <img src="icon/pic.png" height="50px"/>
+                                    <div class="tele">
+                                        <p>
+                                            <img src="icon/tele.png" />
+                                            1-800-656-4673
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="info_right col col-9 text-left">
+                                    <div class="info_right_top">
+                                        <div class="title">
+                                            <h3>Agency 1</h3>
+                                            <p class="type">Hotline Services</p>
+                                        </div>
+                                        <div class="heart text-right">
+                                            <img src="icon/heart_black.png" />
+                                        </div>
+                                    </div>
+                                    <p class="describ">some information some information some information some information there is some information some information some information.</p>
+                                    <div class="detail">
+                                        <p>
+                                            <img src="icon/global.png" />
+                                            no file
+                                        </p>
+                                    </div>
+                                    <div class="detail">
+                                        <p>
+                                            <img src="icon/time.png" />
+                                            Available 24 hours everyday
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tags row">
+                                <div class="tag col col-3 search-cover m-3">
+                                    <p>Sexual Assault</p>
+                                </div>
+                                <div class="tag col col-3 search-cover m-3">
+                                    <p>Domestic Voilence</p>
+                                </div>
+                                <div class="tag col col-3 search-cover m-3">
+                                    <p>Free Consultation</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--agency 1-->
+                        <div class="left_block search-item-cover my-5 mx-3">
+                            <div class="info row p-3 m-3">
+                                <div class="info_left col col-3">
+                                    <img src="icon/pic.png" height="50px"/>
+                                    <div class="tele">
+                                        <p>
+                                            <img src="icon/tele.png" />
+                                            1-800-656-4673
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="info_right col col-9 text-left">
+                                    <div class="info_right_top">
+                                        <div class="title">
+                                            <h3>Agency 1</h3>
+                                            <p class="type">Hotline Services</p>
+                                        </div>
+                                        <div class="heart text-right">
+                                            <img src="icon/heart_black.png" />
+                                        </div>
+                                    </div>
+                                    <p class="describ">some information some information some information some information there is some information some information some information.</p>
+                                    <div class="detail">
+                                        <p>
+                                            <img src="icon/global.png" />
+                                            no file
+                                        </p>
+                                    </div>
+                                    <div class="detail">
+                                        <p>
+                                            <img src="icon/time.png" />
+                                            Available 24 hours everyday
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tags row">
+                                <div class="tag col col-3 search-cover m-3">
+                                    <p>Sexual Assault</p>
+                                </div>
+                                <div class="tag col col-3 search-cover m-3">
+                                    <p>Domestic Voilence</p>
+                                </div>
+                                <div class="tag col col-3 search-cover m-3">
+                                    <p>Free Consultation</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--pagination-->
+                        <nav aria-label="Page navigation example" class="search-cover my-5 mx-3">
+                            <ul class="pagination justify-content-start">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                </li>
+                                <li class="page-item"><a class="page-link anonymity-link2" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link anonymity-link2" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link anonymity-link2" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link anonymity-link2" href="#">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <!--right column-->
+                    <div class="right search-cover col col-4">
+                        <!--right 1-->
+                        <div class="right_block search-item-cover p-3 my-5 mr-3 text-left" id="category">
+                            <div class="title anonymity-brand">
+                                <h2>Category</h2>
+                            </div>
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Therapy
+                                    <span class="badge badge-light badge-pill">12</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Resource
+                                    <span class="badge badge-light badge-pill">8</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--right 2-->
+                        <div class="right_block search-item-cover p-3 my-5 mr-3 text-left" id="category">
+                            <div class="title anonymity-brand">
+                                <h2>Distance</h2>
+                            </div>
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    < 5 miles
+                                    <span class="badge badge-light badge-pill">12</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    5 - 10 miles
+                                    <span class="badge badge-light badge-pill">8</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    10 - 15 miles
+                                    <span class="badge badge-light badge-pill">8</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    15 - 20 miles
+                                    <span class="badge badge-light badge-pill">8</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    No constraint
+                                    <span class="badge badge-light badge-pill">12</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--right 3-->
+                        <div class="right_block search-item-cover p-3 my-5 mr-3 text-left" id="category">
+                            <div class="title anonymity-brand">
+                                <h2>Specialty</h2>
+                            </div>
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Veterans
+                                    <span class="badge badge-light badge-pill">12</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Children
+                                    <span class="badge badge-light badge-pill">8</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Older Adults
+                                    <span class="badge badge-light badge-pill">8</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    LGBT
+                                    <span class="badge badge-light badge-pill">8</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Others
+                                    <span class="badge badge-light badge-pill">12</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer class="mt-auto">
+    </footer>
+</div>
+<!-- JavaScript -->
+<!--<script src="index.js"></script>-->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
