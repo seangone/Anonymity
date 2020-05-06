@@ -1,3 +1,3 @@
 # Anonymity
 
-[Showcase](https://seangone.github.io/Anonymity/)
+[Showcase](https://shiyuann.github.io/Anonymity/)
